@@ -1,0 +1,5 @@
+default[:apt][:git] = "https://github.com/castlabs/apt-s3"
+default[:apt][:fqdn] = "repo.somesite.com/repository"
+default[:apt][:accesskey] = "123"
+default[:apt][:secretkey] = "456"
+default[:apt][:repo_name] = "somesite"
